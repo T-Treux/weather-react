@@ -1,5 +1,12 @@
 import React from "react";
+import "./App.js";
+import "./App.css";
 
 export default function Weather() {
-  return <h2>Hello from Weather </h2>;
+  return (
+    <div className="Temperature">
+      <div className="temp">39°</div>
+      <div className="units">C | F</div>
+    </div>
+  );
 }

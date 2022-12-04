@@ -2,37 +2,55 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Weatherapp {
+  display: block;
+  border: 10px solid;
+  border-radius: 30%;
+  padding: 20px 60px;
+  border-color: gold;
+  border-width: 50px;
+  border-top: 50px;
+  margin-left: 275px;
+  margin-right: 275px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Temperature .temp {
+  font-size: 60px;
+  color: gold;
+  font-style: italic;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Temperature .units {
+  top: -70px;
+  left: 305px;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.Weatherapp .city {
+  font-size: 50px;
+  color: gold;
+  font-style: italic;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Weatherapp ul {
+  list-style: none;
+}
+
+.Weatherapp li {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Search {
+  text-align: center;
+}
+
+.root {
+  text-align: center;
 }
