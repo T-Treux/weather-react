@@ -15,22 +15,26 @@
 }
 
 .Temperature .temp {
-  font-size: 60px;
+  font-size: 96px;
   color: gold;
   font-style: italic;
   text-align: center;
+  font-weight: 300;
+  margin-top: -50px;
 }
 
 .Temperature .units {
-  top: -70px;
+  top: -60px;
   left: 305px;
   position: relative;
 }
 
 .Weatherapp .city {
-  font-size: 50px;
-  color: gold;
+  font-size: 64px;
+  color: blue;
   font-style: italic;
+  font-weight: 300;
+  margin-top: 7px;
 }
 
 .Weatherapp ul {
@@ -40,7 +44,8 @@
 .Weatherapp li {
   font-size: 20px;
   font-style: italic;
-  text-align: center;
+  text-align: right;
+  margin-top: -10px;
 }
 
 h1 {
@@ -53,4 +58,21 @@ h1 {
 
 .root {
   text-align: center;
+}
+
+a {
+  text-align: center;
+}
+
+.forecast li {
+  text-align: center;
+  margin-left: -70px;
+  margin-top: 0px;
+  border: 5px solid blue;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+small {
+  margin-bottom: 10px;
 }

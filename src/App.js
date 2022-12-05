@@ -2,6 +2,7 @@ import React from "react";
 import Search from "./Search.js";
 import Weather from "./Weather.js";
 import "./App.css";
+import Footer from "./Footer";
 
 export default function App() {
   return (
@@ -19,12 +20,22 @@ export default function App() {
           </div>
           <div className="col-4">
             <ul>
-              <li>Humidity: 70%</li>
+              <li>Humidity: 51%</li>
               <li>Wind: 10 mph</li>
             </ul>
+            <div className="forecast">
+              <ul>
+                <li>Monday ☁️ 44°| 31°</li>
+                <li>Tuesday 🌧️ 44° | 34°</li>
+                <li>Wednesday ⛈️ 48° | 33°</li>
+                <li>Thursday ⛈️ 44° | 32°</li>
+                <li>Friday ❄️ 39° | 25°</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

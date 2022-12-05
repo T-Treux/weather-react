@@ -11,7 +11,7 @@ export default function Search() {
             <input
               type="text"
               className="form-control"
-              placeholder="Type a city.."
+              placeholder="Type a city..."
             />
           </div>
           <div className="col-3">
